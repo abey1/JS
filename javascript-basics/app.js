@@ -5,6 +5,9 @@
 //     });
 // });
 
-document.write(2 + 2);
-alert("hello people!");
-console.log("hello world");
+let address = "101 merry street";
+let city = "new york";
+let state = "ny";
+let zip = "10001";
+
+console.log(`${address}, ${city}, ${state} ${zip}`);
