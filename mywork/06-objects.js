@@ -13,20 +13,16 @@
 */
 
 const car = {
-  make: 'Dodge',
-  model: 'Challenger',
-  year: 1970,
-  colors: ['black', 'red'],
-  hybrid: false,
-  drive: function () {
-    console.log('driving...');
-  },
-  stop() {
-    console.log('stopped!!!');
-  },
+  make: "BMW",
+  model: "101",
+  year: 1999,
+  color: ["black", "white", "dark blue"],
+  hybrid: true,
+  drive: () => console.log("driving..."),
+  stop: () => console.log("stopping..."),
 };
 
 console.log(car.make);
-console.log(car.colors[0]);
+console.log(car.color[0]);
 car.drive();
 car.stop();

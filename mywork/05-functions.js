@@ -12,16 +12,18 @@
 
 */
 
-const calculateTotal = function random(subTotal, tax) {
-  // const total = subTotal + tax;
-  // return total;
-  return subTotal + tax;
-};
+// function calculateTotal(subTotal, tax) {
+//   return subTotal + tax;
+// }
 
-// console.log(calculateTotal(200, 20));
+// calculateTotal = (subTotal, tax) => subTotal + tax;
+// console.log(calculateTotal(10, 30));
 
-const order1 = calculateTotal(100, 10);
-const order2 = calculateTotal(50, 5);
-const order3 = calculateTotal(25, 5);
+// let order1, order2, order3;
 
-console.log(order1, order2, order3);
+//greet bob anna or susy or any one using function
+
+const greetings = (personName) => console.log("Hello there", personName);
+greetings("bob");
+greetings("anna");
+greetings("susy");
